@@ -1,0 +1,14 @@
+﻿@model SEDC.PizzaApp.Web.Models.ViewModels.PizzaDetailsViewModel
+<h1>@ViewData["Title"]</h1>
+<hr />
+<h4>Pizza : @ViewBag.pizza.Name</h4>
+<h6>Price : @ViewBag.pizza.Price</h6>
+<h6>Size : @ViewBag.pizza.Size</h6>
+@if (ViewBag.pizza.HasExtras)
+{
+    <h6>Have extras</h6>
+}
+else
+{
+    <h6>Without extras</h6>
+}

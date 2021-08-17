@@ -1,0 +1,25 @@
+﻿@model List<SEDC.PizzaApp.Web.Models.ViewModels.PizzaDetailsViewModel>
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <p>@Model[i].Name</p>
+            <p>@Model[i].PizzaSize</p>
+            <p>@Model[i].Price</p>
+            @if (Model[i].IsOnPromotion)
+            {
+                <p style="color:red">Pizza is on promotion</p>
+            }
+            <hr />
+        }
+    </div>
+    <div style="border:solid">
+        @for(int j = 0; j < Model.Count; j++)
+        {
+            @Html.Partial("~/Views/Shared/_PizzaDetailsPartial.cshtml", Model[j]);
+        }
+    </div>
+</div>
