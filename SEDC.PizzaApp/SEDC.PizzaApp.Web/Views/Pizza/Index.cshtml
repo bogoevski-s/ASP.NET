@@ -1,1 +1,24 @@
-﻿<h2>Pizza list</h2>
+﻿@*@{
+    ViewBag.Title = "Pizza";
+    Layout = "~/Views/Shared/_SecondLayout.cshtml";
+}*@
+
+@model List<SEDC.PizzaApp.Web.Models.Pizza>
+
+<h2 style="text-align: center">Pizza list</h2> <button class="btn btn-warning font-weight-bold col-3"> @Html.ActionLink("Create New Pizza", "Create")</button>
+<hr>
+<br />
+<br />
+<div class="row">
+    <div class="col-md-4">
+        @foreach (Pizza pizza in Model)
+        {
+            <h5>Name: @pizza.Name</h5>
+            <h6>Price: @pizza.Price</h6>
+            <h6>Is on promotion: @pizza.IsOnPromotion</h6>
+            <button class="btn btn-dark alert-light font-weight-bold btn-xs"> @Html.ActionLink("Edit", "Edit", new { id = pizza.Id })</button>
+            <button class="btn btn-danger small alert-light font-weight-bold"> @Html.ActionLink("Delete", "Delete", new { id = pizza.Id })</button>
+            <hr>
+        }
+    </div>
+</div>

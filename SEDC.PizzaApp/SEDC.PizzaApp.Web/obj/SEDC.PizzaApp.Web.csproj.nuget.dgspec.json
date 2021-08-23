@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_02\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj": {}
+    "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_05\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_02\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj": {
+    "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_05\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_02\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_05\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj",
         "projectName": "SEDC.PizzaApp.Web",
-        "projectPath": "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_02\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_05\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\SEDC.PizzaApp.Web.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_02\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ASP.NET MVC github\\skwd9-net-08-aspnetmvc\\G1\\Class_05\\SEDC.PizzaApp\\SEDC.PizzaApp.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

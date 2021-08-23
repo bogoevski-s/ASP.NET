@@ -1,5 +1,4 @@
-﻿using SEDC.PizzaApp.Web.Models.Domain;
-using SEDC.PizzaApp.Web.Models.Enums;
+﻿using SEDC.PizzaApp.Web.Models.Enums;
 
 namespace SEDC.PizzaApp.Web.Models.ViewModels
 {
@@ -10,5 +9,7 @@ namespace SEDC.PizzaApp.Web.Models.ViewModels
         public string PizzaName { get; set; }
         public string UserFullName { get; set; }
         public double Price { get; set; }
+        public bool Delivered { get; set; }
+        public string PizzaStore { get; set; }
     }
 }
