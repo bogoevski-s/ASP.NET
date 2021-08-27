@@ -1,0 +1,6 @@
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Domain\bin\Debug\SEDC.E-store.Domain.dll
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Domain\bin\Debug\SEDC.E-store.Domain.pdb
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Domain\obj\Debug\SEDC.E-store.Domain.csproj.CoreCompileInputs.cache
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Domain\obj\Debug\SEDC.E-store.Domain.dll
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Domain\obj\Debug\SEDC.E-store.Domain.pdb
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Domain\obj\Debug\SEDC.E-store.Domain.csprojAssemblyReference.cache

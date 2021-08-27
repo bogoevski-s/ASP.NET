@@ -1,0 +1,11 @@
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\bin\Debug\SEDC.E-store.Services.dll
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\bin\Debug\SEDC.E-store.Services.pdb
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\bin\Debug\SEDC.E-store.Domain.dll
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\bin\Debug\SEDC.E-store.Domain.pdb
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\obj\Debug\SEDC.E-store.Services.csprojAssemblyReference.cache
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\obj\Debug\SEDC.E-store.Services.csproj.CoreCompileInputs.cache
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\obj\Debug\SEDC.E-store.Services.csproj.CopyComplete
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\obj\Debug\SEDC.E-store.Services.dll
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\obj\Debug\SEDC.E-store.Services.pdb
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\bin\Debug\SEDC.E-store.DataAccess.dll
+D:\Slave\Visual Studio\ASP.NET MVC\SEDC.E-store\SEDC.E-store.Services\bin\Debug\SEDC.E-store.DataAccess.pdb

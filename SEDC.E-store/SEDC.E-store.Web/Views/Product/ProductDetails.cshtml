@@ -1,0 +1,62 @@
+﻿@model ProductDetailsViewModel
+
+
+<div class="container row justify-content-center" style="margin-top: 30px; padding: 20px; border: 2px solid #a5a5a5; border-radius: 5px; ">
+    @{
+        if (Model.IsOnPromo == true)
+        {
+            <div class="row col-lg-12" style="margin:5px;">
+                <h2 style="color:red">Product is on promotion</h2>
+            </div>
+        }
+    }
+    <div class="col-lg-6">
+        <div class="row col-lg-12" style="margin:5px;">
+            <h2>@Model.Brand</h2>
+        </div>
+        <div class="row col-lg-12" style="margin:5px;">
+            <h3>Model: @Model.Name</h3>
+        </div>
+        <div class="row col-lg-6" style="margin:5px;">
+            <h5>Description: </h5>
+        </div>
+        <div class="row col-lg-6" style="margin:5px;">
+            <p>@Model.Description</p>
+        </div>
+        <div class="row col-lg-6" style="margin:5px;">
+            <h5>Specification</h5>
+        </div>
+        <div class="row col-lg-6" style="margin:5px;">
+            <p>@Model.Spec</p>
+        </div>
+        <div class="row col-lg-6 flex-wrap" style="margin:5px;">
+            <h6 class="col-lg-12" style="padding:0">Reviews : </h6>
+            <hr />
+            @{
+                @using SEDC.E_store.Domain.Models
+
+                @foreach (Review comment in Model.Reviews)
+                {
+                    <p class="col-lg-12" style="margin:0; font-size:16px; font-weight:600">@comment.User.UserName :</p>
+                    <p class="col-lg-12" style="margin:0; margin-bottom:5px">@comment.ReviewComment</p>
+                }
+            }
+        </div>
+        <div class="row col-lg-6" style="margin:5px;">
+            <h3>Price: @Model.Price $</h3>
+        </div>
+
+    </div>
+    <div class="col-lg-6 align-self-center">
+        <img style="display:block; margin:auto; vertical-align:central" src="https://picsum.photos/200/300" alt="Alternate Text" />
+    </div>
+    <button class="btn btn-outline-primary" style="margin: 5px;">
+        @Html.ActionLink("Back to products", "Index", "Home", null, new { style = "text-decoration:none;" })
+    </button>
+    <button class="btn btn-outline-danger" style="margin: 5px;">
+        @Html.ActionLink("Delete product", "DeleteProduct", "Product", new { id = Model.Id }, new { style = "text-decoration:none;" })
+    </button>
+    <button class="btn btn-outline-primary" style="margin: 5px;">
+        @Html.ActionLink("Edit product", "UpdateProduct", "Product", new { id = Model.Id }, new { style = "text-decoration:none;" })
+    </button>
+</div>

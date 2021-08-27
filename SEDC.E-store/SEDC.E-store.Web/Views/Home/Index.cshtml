@@ -1,0 +1,32 @@
+﻿@model List<ProductsViewModel>
+
+
+<div class="container justify-content-center">
+    <div class="row justify-content-center" style="margin-top:30px">
+        @foreach (ProductsViewModel product in Model)
+        {
+
+
+            <div class="col-lg-4 text-center" style="margin: 10px; margin-top: 0px; border-radius: 5px; padding:20px; border: 1px solid #a5a5a5">
+                <h4>@product.Name</h4>
+                <h6>@product.Description</h6>
+                <h3>@product.Price $</h3>
+                <button class="btn btn-outline-info" style="margin: 5px;">
+                    @Html.ActionLink("Details", "ProductDetails", "Product",
+                    new { id = @product.Id }, new { style = "text-decoration:none;" })
+                </button>
+                <button class="btn btn-outline-success" style="margin: 5px">
+                    Add to card
+                </button>
+            </div>
+        }
+    </div>
+    <div class="row justify-content-center">
+        <button class="btn btn-outline-success" style="margin: 15px">
+            @Html.ActionLink("Add new product", "AddNewProduct", "Product",
+            null, new { style = "text-decoration:none;" })
+        </button>
+    </div>
+    
+</div>
+
